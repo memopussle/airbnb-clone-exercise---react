@@ -14,7 +14,7 @@ const Data = [
       reviewCount: 30,
     },
     location: "Auckland",
-    openSpots: 27,
+    openSpots: 0,
   },
   {
     id: 2,
@@ -27,7 +27,7 @@ const Data = [
       rating: 4.5,
       reviewCount: 10,
     },
-    location: "Christchurch",
+    location: "Online",
     openSpots: 5,
   },
   {
@@ -58,4 +58,7 @@ const Data = [
     location: "Nelson",
     openSpots: 2,
   },
+
 ];
+
+export default Data;

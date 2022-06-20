@@ -18,15 +18,14 @@ nav .logo {
     justify-content: center;
     flex-direction: column;
 }
-.hero__img {
-    background-image: url(./img/hero.jpg);
-    width: auto;
-    height: 40rem;
-    background-position: cover;
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
 
+.hero__photo {
+    background-image: url(../public/img/hero.jpg);
+    background-position: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+    width: auto;
+}
 
 
 .hero__header {
@@ -39,9 +38,15 @@ nav .logo {
     border-radius: 0.9rem;
 }
 
-.card{
-    width: 13.7rem;
-  
+.card-parent{
+  display: flex;
+     flex: 1;
+     overflow: auto;
+     
+}
+.card {
+    margin-right: 0.5rem;
+    position: relative;
 }
 .bold {
     font-weight: bold;
@@ -58,4 +63,15 @@ nav .logo {
 
 .card--stats > span:last-child, .card--stats > span:nth-child(3) {
     color: gray;
+}
+
+.card__badge {
+    position : absolute;
+    left: 3%;
+    top: 2%;
+    background-color: white;
+    text-align: center;
+    font-weight: 800;
+    border-radius: 10px;
+    padding: 0.5rem 0.5rem;
 }
