@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../img/images.png"; // have to import logo png from img to use it
+import logo from "../img/logo.png"; // have to import logo png from img to use it
 
 
 

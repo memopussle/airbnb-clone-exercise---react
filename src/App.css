@@ -2,14 +2,15 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-
-
-nav .logo {
-    height: 4rem;
-    width: auto;
-    padding: 2rem 0;
+.container {
+    margin: 0 2.4rem;
 }
 
+nav .logo {
+    height: 3rem;
+    width: auto;
+    padding: 1rem 2rem;
+}
 
 
 .hero {
@@ -17,10 +18,16 @@ nav .logo {
     justify-content: center;
     flex-direction: column;
 }
-.hero__img--1 {
-    max-width: 1000px;
-    align-self: center;
+.hero__img {
+    background-image: url(./img/hero.jpg);
+    width: auto;
+    height: 40rem;
+    background-position: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
+
+
 
 .hero__header {
     margin-bottom: 1.6rem;
