@@ -2,9 +2,9 @@ import React from "react";
 
 export default function Hero() {
   return (
-    <div className="container">
+
       <section className="hero">
-        <div className="hero__photo"></div>
+        <img src="./img/hero.jpg" alt="hero photo" className="hero__photo"/>
        
         <h1 className="hero__header">Online Experiences</h1>
         <p className="hero__text">
@@ -12,6 +12,5 @@ export default function Hero() {
           without leaving home
         </p>
       </section>
-    </div>
   );
 }

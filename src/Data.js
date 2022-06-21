@@ -58,7 +58,34 @@ const Data = [
     location: "Nelson",
     openSpots: 2,
   },
-
+  {
+    id: 5,
+    title: "Cheap and cheerful room in Point Chev home",
+    description:
+      "Lovely bright comfortable room with double bed in eclectic 3 bedroom bungalow. Share bathroom. Great work from home 100% cotton and linen bedding. A home away from home. Antisocial cat free ",
+    price: 246,
+    coverImg: "tiny.jpg",
+    stats: {
+      rating: 4.2,
+      reviewCount: 5,
+    },
+    location: "Nelson",
+    openSpots: 2,
+  },
+  {
+    id: 6,
+    title: "Cheap and cheerful room in Point Chev home",
+    description:
+      "Lovely bright comfortable room with double bed in eclectic 3 bedroom bungalow. Share bathroom. Great work from home 100% cotton and linen bedding. A home away from home. Antisocial cat free ",
+    price: 246,
+    coverImg: "tiny.jpg",
+    stats: {
+      rating: 4.2,
+      reviewCount: 5,
+    },
+    location: "Nelson",
+    openSpots: 0,
+  },
 ];
 
 export default Data;
